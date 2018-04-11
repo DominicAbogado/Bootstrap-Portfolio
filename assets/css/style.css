@@ -1,0 +1,23 @@
+.header{
+    position:fixed;
+    color: #ffffff;
+    margin:0;
+    width:100%;
+    border-bottom:solid #cccccc 2px;
+    height:80px;
+}
+#innerheader{
+    width:960px;
+    margin: auto;
+    background-color:  #4aaaa5;
+    height: 80px;
+    border-bottom: solid #cccccc 2px;
+    position:relative;
+}
+
+.nav{
+    position:absolute;
+    right:0px;
+    line-height: 60px;
+
+}
