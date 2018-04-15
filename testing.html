@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Index with Bootstrap</title>
+    <title>THIS IS A TEST</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
@@ -95,6 +95,30 @@
             height: auto;
         }
 
+        #photorow {
+            margin-bottom: 25px;
+        }
+
+        .photocontainer {
+            position: relative;
+            text-align: center;
+            color: black;
+            width: 240px;
+            height: auto;
+        }
+
+        .desc {
+            text-align: center;
+            background-color: #4aaaa5;
+            color: #ffffff;
+            position: absolute;
+            bottom: 15px;
+            padding: 5px;
+            margin: 0px;
+            width: 100%;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
         #copy {
             position: relative;
             font-size: 12px;
@@ -154,55 +178,61 @@
                     </nav>
                 </div>
             </div>
-
-
         </div>
-
-
-
 
         <div class="row">
             <div class="col-md-12">
                 <div class="col-md-12" id="maincontent">
-                    <p id="aboutme">About Me</p>
-                    <div class="row">
+                    <p id="aboutme">Portfolio</p>
+                    <div class="row" id="photorow">
+                        <!-- First of two columns -->
                         <div class="col-md-4">
-                            <img src="assets/images/yellowcoat.jpg" class="img-fluid" alt="Responsive image">
+                            <div class="photocontainer">
+                                <img src="assets/images/kittycat.jpg" class="img-fluid" alt="Responsive image">
+                                </a>
+                                <div class="desc">Hangman</div>
+                            </div>
                         </div>
-                        <div class="col-md-8">
-                            <p id="para1">
-                                Lord Vader, this is an unexpected pleasure. We're honored by your presence. You may dispense with the pleasantries, Commander.
-                                I'm here to put you back on schedule. I assure you, Lord Vader, my men are working as fast
-                                as they can. Perhaps I can find new ways to motivate them. I tell you, this station will
-                                be operational as planned.
-                            </p>
+                        <!-- Second of two columns -->
+                        <div class="col-md-4">
+                            <div class="photocontainer">
+                                <img src="assets/images/nightlife.jpg" class="img-fluid" alt="Responsive image">
+                                </a>
+                                <div class="desc">RPG Game</div>
+                            </div>
                         </div>
-                        <div class="row"></div>
-                        <p id="para2">
-                            All right, move it! I said move it! Go on! Hello! I say, over there! Were you looking for me? Bring those two down here!
-                            Let's go! Well, they're on their way. Artoo, are you sure this was a good idea? Freeze! Don't
-                            move! We surrender. No, what! Artoo! Oh, this is no time for heroics.
-
-                            <br>
-                            <br> Ohhh! Stand back, Artoo. The code's changed. We need Artoo! Here's the terminal. Artoo, where
-                            are you? We need you at the bunker right away. Going? What do you mean, you're going. But-- but
-                            going where, Artoo?
-                        </p>
                     </div>
+                    <div class="row" id="photorow">
+                        <div class="col-md-4">
+                            <div class="photocontainer">
+                                <img src="assets/images/plant.jpg" class="img-fluid" alt="Responsive image">
+                                </a>
+                                <div class="desc">Trivia Game</div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="photocontainer">
+                                <img src="assets/images/abstract.jpg" class="img-fluid" alt="Responsive image">
+                                </a>
+                                <div class="desc">Rutgers Info Widget</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row" id="photorow">
+
+                        <div class="col-md-4">
+                            <div class="photocontainer">
+                                <img src="assets/images/city.jpg" class="img-fluid" alt="Responsive image">
+                                </a>
+                                <div class="desc">Trivia Game</div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
-            </div>
-
-
-
-        </div>
-    </div>
-    </div>
-
-
-
-    <footer>
-        <p id="copy">Copyright &copy;</p>
-    </footer>
+                <footer>
+                    <p id="copy">Copyright &copy;</p>
+                </footer>
 
 </body>
 
