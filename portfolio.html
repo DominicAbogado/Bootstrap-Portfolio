@@ -2,80 +2,103 @@
 <html>
 
 <head>
-    <title>Dominic's Portfolio</title>
+    <title>Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
         crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" style type="text/css">
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
-
+    <link rel="stylesheet" href="assets/bootstyle.css">
 </head>
 
 <body>
-    <header class="header">
-        <div id="innerheader">
-            <ul class="nav" style="color: #cccccc">
-                <li class="nav-item">
-                    <a class="nav-link active" target="_blank" href="index.html">About</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" target="_blank" href="#">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" target="_blank" href="contact.html">Contact</a>
-                </li>
-            </ul>
-            <p id="myname">Dominic Abogado</p>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="topheader">
+                    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="mainheader">
+                        <a class="navbar-brand" href="#">
+                            <p id="myname">Dominic Abogado</p>
+                        </a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav mr-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.html">About</a>
+                                </li>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Portfolio</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact.html">Contact</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
         </div>
 
-        <section id="maincontent">
-            <p id="aboutme">Portfolio</p>
-            <div id="uppercontent">
-                <div class="clearfix">
-                    <div id="mainphotocontain">
-                        <div id="photocontainer1">
-                            <a taget="_blank" href="assets/images/kittycat.jpg">
-                                <img src="assets/images/kittycat.jpg" alt="Kitty Cat">
-                            </a>
-                            <div class="desc">Hangman</div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="col-md-12" id="maincontent">
+                    <p id="aboutme">Portfolio</p>
+                    <div class="row" id="photorow">
+                        <!-- First of two columns -->
+                        <div class="col-md-4">
+                            <div class="photocontainer">
+                                <img src="assets/images/kittycat.jpg" class="img-fluid" alt="Responsive image">
+                                </a>
+                                <div class="desc">Hangman</div>
+                            </div>
                         </div>
-                        <div id="photocontainer1">
-                            <a taget="_blank" href="assets/images/city.jpg">
-                                <img src="assets/images/city.jpg" alt="RPG">
-                            </a>
-                            <div class="desc">RPG Game</div>
-                        </div>
-                    </div>
-                    <div class="clearfix">
-                        <div id="photocontainer1">
-                            <a taget="_blank" href="assets/images/plant">
-                                <img src="assets/images/plant.jpg" alt="plant">
-                            </a>
-                            <div class="desc">Trivia Game</div>
-                        </div>
-                        <div id="photocontainer1">
-                            <a taget="_blank" href="assets/images/nightlife.jpg">
-                                <img src="assets/images/nightlife.jpg" alt="Night">
-                            </a>
-                            <div class="desc">Rutgers Info Widget</div>
+                        <!-- Second of two columns -->
+                        <div class="col-md-4">
+                            <div class="photocontainer">
+                                <img src="assets/images/nightlife.jpg" class="img-fluid" alt="Responsive image">
+                                </a>
+                                <div class="desc">RPG Game</div>
+                            </div>
                         </div>
                     </div>
-                    <div id="photocontainer1">
-                        <a taget="_blank" href="assets/images/abstract.jpg">
-                            <img src="assets/images/abstract.jpg" alt="plant">
-                        </a>
-                        <div class="desc">Rock Paper Scissors</div>
+                    <div class="row" id="photorow">
+                        <div class="col-md-4">
+                            <div class="photocontainer">
+                                <img src="assets/images/plant.jpg" class="img-fluid" alt="Responsive image">
+                                </a>
+                                <div class="desc">Trivia Game</div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="photocontainer">
+                                <img src="assets/images/abstract.jpg" class="img-fluid" alt="Responsive image">
+                                </a>
+                                <div class="desc">Rutgers Info Widget</div>
+                            </div>
+                        </div>
                     </div>
+                    <div class="row" id="photorow">
+
+                        <div class="col-md-4">
+                            <div class="photocontainer">
+                                <img src="assets/images/city.jpg" class="img-fluid" alt="Responsive image">
+                                </a>
+                                <div class="desc">Trivia Game</div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
-        </section>
-        
-        <footer>
-            <p id="copy">Copyright &copy;</p>
-        </footer>
-
-
-    </header>
-
+                <footer>
+                    <p id="copy">Copyright &copy;</p>
+                </footer>
 
 </body>
 

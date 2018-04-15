@@ -2,146 +2,13 @@
 <html>
 
 <head>
-    <title>THIS IS A TEST</title>
+    <title>CONTACT TESTING</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
         crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" style type="text/css">
-    <link rel="stylesheet" type="text/css" media="screen" href="/assets/bootstyle.css">
-    <style>
-        body {
-            background-image: url("assets/images/circles-light.png");
-        }
-
-        #mainheader {
-            margin: 0px;
-            width: 100%;
-            border-bottom: solid #cccccc 2px;
-            height: 80px;
-            background-color: #ffffff;
-            padding: 0px;
-        }
-
-        #myname {
-            padding: 10px 20px 0px 20px;
-            margin: 0px;
-            background-color: #4aaaa5;
-            color: #ffffff;
-            height: 80px;
-            font-size: 24px;
-            line-height: 40px;
-            bottom: 0px;
-            font-family: Georgia, 'Times New Roman', Times, serif;
-            border-bottom: solid #cccccc 2px;
-        }
-
-        #header {
-            margin: auto;
-            width: 100%;
-            border-bottom: solid #cccccc 2px;
-            height: 80px;
-            background-color: #ffffff
-        }
-
-        #innerheader {
-            width: 960px;
-            margin: auto;
-            height: 80px;
-            border-bottom: solid #cccccc 2px;
-            position: relative;
-        }
-
-        #maincontent {
-            width: 960px;
-            background-color: #ffffff;
-            border: solid #dddddd 1px;
-            margin: 25px auto;
-            padding: 20px;
-        }
-
-        #aboutme {
-            font-size: 24px;
-            line-height: 48px;
-            color: #4aaaa5;
-            padding: 20 0 20 20;
-            font-family: Georgia, 'Times New Roman', Times, serif;
-            border-bottom: solid #dddddd;
-        }
-
-        #para2 {
-            padding: 20px 10px 10px 10px;
-        }
-
-        p {
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 16px;
-            color: #777777;
-            line-height: 32px;
-        }
-
-        footer {
-            bottom: 0px;
-            height: 40px;
-            background-color: #666666;
-            line-height: 40px;
-            width: 100%;
-            text-align: center;
-            border-top: solid 4px #4aaaa5;
-        }
-
-        img {
-            width: 240px;
-            height: auto;
-        }
-
-        #photorow {
-            margin-bottom: 25px;
-        }
-
-        .photocontainer {
-            position: relative;
-            text-align: center;
-            color: black;
-            width: 240px;
-            height: auto;
-        }
-
-        .desc {
-            text-align: center;
-            background-color: #4aaaa5;
-            color: #ffffff;
-            position: absolute;
-            bottom: 15px;
-            padding: 5px;
-            margin: 0px;
-            width: 100%;
-            font-family: Georgia, 'Times New Roman', Times, serif;
-        }
-
-        #copy {
-            position: relative;
-            font-size: 12px;
-            color: #777777;
-            bottom: 0px;
-            margin-bottom: 0px;
-            padding: 0px;
-        }
-
-        @media screen and (max-width: 980px) {
-            #maincontent {
-                width: 100%;
-                padding: 10px;
-            }
-            #para1 {
-                width: 100%;
-            }
-            #mypicture {
-                width: 100%;
-
-            }
-        }
-    </style>
+    <link rel="stylesheet" href="assets/bootstyle.css">
 
 </head>
 
@@ -162,11 +29,11 @@
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
                             <ul class="navbar-nav mr-auto">
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Portfolio</a>
+                                    <a class="nav-link" href="bootstrap-portfolio.html">About</a>
                                 </li>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Portfolio</a>
+                                    <a class="nav-link" href="newportfolio.html">Portfolio</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#">Contact</a>
@@ -182,57 +49,32 @@
 
         <div class="row">
             <div class="col-md-12">
-                <div class="col-md-12" id="maincontent">
-                    <p id="aboutme">Portfolio</p>
-                    <div class="row" id="photorow">
-                        <!-- First of two columns -->
-                        <div class="col-md-4">
-                            <div class="photocontainer">
-                                <img src="assets/images/kittycat.jpg" class="img-fluid" alt="Responsive image">
-                                </a>
-                                <div class="desc">Hangman</div>
+                <section id="maincontent">
+                    <p id="aboutme">Contact</p>
+                    <div id="uppercontent">
+                        <form>
+                            <div class="form-group">
+                                <label for="exampleFormControlInput1">Name</label>
+                                <input type="text" class="form-control" id="form-name" placeholder="John Smith">
                             </div>
-                        </div>
-                        <!-- Second of two columns -->
-                        <div class="col-md-4">
-                            <div class="photocontainer">
-                                <img src="assets/images/nightlife.jpg" class="img-fluid" alt="Responsive image">
-                                </a>
-                                <div class="desc">RPG Game</div>
+                            <div class="form-group">
+                                <label for="exampleFormControlInput1">Email</label>
+                                <input type="text" class="form-control" id="form-name" placeholder="name@email.com">
                             </div>
-                        </div>
+                            <div class="form-group">
+                                <label for="exampleFormControlTextarea1">Message</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="6"></textarea>
+                            </div>
+                        </form>
+                        <button type="button">Submit</button>
                     </div>
-                    <div class="row" id="photorow">
-                        <div class="col-md-4">
-                            <div class="photocontainer">
-                                <img src="assets/images/plant.jpg" class="img-fluid" alt="Responsive image">
-                                </a>
-                                <div class="desc">Trivia Game</div>
-                            </div>
-                        </div>
-                        <div class="col-md-4">
-                            <div class="photocontainer">
-                                <img src="assets/images/abstract.jpg" class="img-fluid" alt="Responsive image">
-                                </a>
-                                <div class="desc">Rutgers Info Widget</div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row" id="photorow">
-
-                        <div class="col-md-4">
-                            <div class="photocontainer">
-                                <img src="assets/images/city.jpg" class="img-fluid" alt="Responsive image">
-                                </a>
-                                <div class="desc">Trivia Game</div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <footer>
-                    <p id="copy">Copyright &copy;</p>
-                </footer>
+                </section>
+            </div>
+        </div>
+        <footer>
+            <p id="copy">Copyright &copy;</p>
+        </footer>
+    </div>
 
 </body>
 
